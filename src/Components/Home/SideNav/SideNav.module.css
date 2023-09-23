@@ -1,0 +1,15 @@
+.sideNavContainer {
+  border-right: 1px solid black;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.sideNavWrapper {
+  height: 100%;
+}
+
+.sideNav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

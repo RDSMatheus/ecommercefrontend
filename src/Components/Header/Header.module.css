@@ -1,0 +1,92 @@
+.header{
+  border-bottom: 1px solid var(--button-card);
+  padding-bottom: 1rem;
+}
+
+.headerTopBarBackground{
+  background-color: var(--button-card);
+  color: var(--primary-1);
+  padding: .8rem 0;
+  margin-bottom: 2.5rem;
+}
+
+.headerTopBar{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.headerNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerNavBar{
+  display: flex;
+  gap: 30px;
+}
+
+.headerNavBar a.active{
+  padding: 1rem 0 ;
+  transition: .3s;
+}
+
+.headerNav a::after{
+  display: block;
+  content: "";
+  background-color: rgba(0, 0, 0, .3);
+  height: 1px;
+  width: 0;
+  transition: .3s;
+}
+
+.headerNav a:hover::after{
+  width: 100%;
+}
+
+.userNav{
+  display: flex;
+  gap: 20px;
+}
+
+.userNav button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+}
+
+.search input{
+  border-radius: 4px 0 0 4px;
+  background-color: var(--second-2);
+  padding: 10px 7px;
+  border: none;
+  transition: .3s;
+}
+
+.search button{
+  background-color: var(--second-2);
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 11px;
+  cursor: pointer;
+  outline: none;
+  transition: .3s;
+}
+
+.search button:hover{
+  background-color: var(--hover-button-1);
+}
+
+.search input:focus + button {
+  box-shadow: 0px 0 10px var(--hover-button-2);
+}
+
+.search input:focus{
+  outline: none;
+  box-shadow: 0px 0 10px var(--hover-button-2);
+}

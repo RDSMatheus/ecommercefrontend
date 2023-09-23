@@ -1,0 +1,55 @@
+.signUp{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 60px;
+  position: relative;
+  justify-content: center;
+}
+
+.imgContainer img{
+  max-width: 200vw;
+  height: auto; 
+  position: absolute;
+  left: -20vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem  0 5rem 5rem;
+}
+
+.form h2{
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.form p{
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.googleBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 4px;
+  padding: 1.17rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.alreadyAccount{
+  text-align: center;
+}
+
+.alreadyAccount a {
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+

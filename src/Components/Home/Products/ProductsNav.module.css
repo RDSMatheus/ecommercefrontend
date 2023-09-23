@@ -1,0 +1,53 @@
+.productsContainer{
+  position: relative;
+  overflow: hidden;
+}
+
+.productsContent{
+  display: flex;
+  transition: .3s;
+}
+
+.productsHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.nav{
+  display: flex;
+  gap: 8px;
+}
+
+.nav button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.item{
+  flex-shrink: 0;
+  width: 20%;
+  margin: 0 2.5%;
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.description{
+  display: block;
+  font-weight: 600;
+}
+
+.price{
+  color: var(--second-3);
+  font-weight: 400;
+}

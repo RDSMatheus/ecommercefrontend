@@ -1,0 +1,24 @@
+.footerBg{
+  background: var(--button-card);
+  color: var(--text-1);
+  margin-top: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 3.5rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer h3{
+  margin-bottom: 1.5rem;
+}
+
+.footer li{
+  margin-bottom: 1rem;
+}
+
+.footer * svg{
+  fill: #fff;
+}
